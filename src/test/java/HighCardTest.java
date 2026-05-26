@@ -59,7 +59,7 @@ public class HighCardTest {
             return "Straight";
         }
 
-        var rankList = List.of(, "One Pair", "Two Pairs");
+        var rankList = List.of("High Card", "One Pair", "Two Pairs");
 
         var previousCardRank = 0;
         var pairCount = 0;
