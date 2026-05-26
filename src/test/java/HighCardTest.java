@@ -11,8 +11,10 @@ public class HighCardTest {
     public void testHighCard() {
 
         var hand = List.of(2,3,4,5,7);
+        // var handWithSuite = List.of("2s","3d","4c","5h","7d");
 
         assertThat(getRank(hand)).isEqualTo("High Card");
+        // assertThat(getRank(handWithSuite)).isEqualTo("High Card");
     }
 
     @Test
